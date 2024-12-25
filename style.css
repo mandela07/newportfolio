@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+body{
+    background-image:linear-gradient(rgba(240, 229, 229, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/desktop.jpg);
+    height: 100vh;
+    background-size: cover;
+    
+}
+nav{
+    height: 70px;
+    align-content: center;
+    
+}
+nav a{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    align-content: center;
+    margin-left: 5%;
+    float: right;
+    text-decoration: none;
+    background-color: rgba(94, 17, 77, 0.527);
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+a:hover{
+    color: rgb(7, 7, 7);
+}
+main{
+    align-content: center;
+    margin-left: 25%;
+    margin-top: 3%;
+    display: inline-block;
+}
+img{
+    border: 8px solid rgb(102, 96, 96);
+    border-radius: 50%;
+}
+h1{
+    font-size: 5rem;
+    float: right;
+    margin-right: 30%;
+    margin-top: 15%;
+    color: rgb(89, 36, 124);
+    
+}
+h1:hover{
+    color: yellow;
+}
+main p{
+    font-size: 1.5rem;
+    float: right;
+    margin-right: 20%;
+     
+}
+.name{
+    font-size: 1.5rem;
+    color: rgb(241, 241, 241);
+    font-weight: bolder;
+}
+strong{
+    text-decoration: underline;
+    color: white;
+}
+
+footer {
+    position:fixed;
+    bottom:3px;
+    text-align: center;
+    display: block;
+    margin-left: 45%;
+    color: white;
+    font-weight: 100;
+    background-color: rgba(0, 0, 255, 0.185);
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    padding-top: 4px;
+    border-radius: 10px;
+
+
+}
